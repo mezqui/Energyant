@@ -1,3 +1,73 @@
 .footer{
     background-color: $color-principal;
 }
+
+.logoPagina {
+    max-width: auto;
+    height: auto;
+    padding: 20px;
+ }
+
+ .cabeza{
+    background-color: black;
+    padding: 3%;
+ }
+
+ .footer{
+    background-color: #009f6f;
+    padding: 4%;
+ }
+
+ .bi{
+    font-size: 2em;
+    margin: 10px;
+ }
+  .bi-facebook{
+     color: #087ceb;
+  }
+  .bi-instagram{
+     color: #fe1c7f;
+  }
+  .bi-youtube{
+     color: #fe0000;
+  }
+  .bi-whatsapp{
+    color: black;
+  }
+  .footer__lista{
+     list-style: none;
+  }
+ 
+  .textoPrincipal{
+     margin: 25px;
+     padding-top: 15px;
+  }
+  .telefonista{
+     margin: 10px;
+  }
+ 
+  main{
+     margin: 30px;
+ }
+  .navegador .nav .col-sm{
+     border-width: 2px;
+     border-style: solid;
+     border-color:#009f6f;  
+     padding-top: 5px;
+     padding-bottom: 5px;
+     border-radius: 5px;
+  }
+ .row a{
+    text-decoration: none;
+    color:black;
+    }
+ 
+ .nav a{
+    text-decoration: none;
+    color:black;
+ }
+ .navegador .nav:hover {
+    
+    background-color:#087ceb;
+    transition: all 1s; }
+ 
