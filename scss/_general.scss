@@ -5,7 +5,14 @@
 
 .footer__piso{
     background-color: $color-terciario;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
 }
+/* .mezqui{
+    justify-content: end;
+} */
 
 .d-flex{
     background-color: $color-principal;
