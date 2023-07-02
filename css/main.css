@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0; }
 
+.footer__piso {
+  background-color: #006647; }
+
+.d-flex {
+  background-color: #009f6f; }
+
 .footer {
   background-color: #009f6f; }
 
