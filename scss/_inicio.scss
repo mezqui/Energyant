@@ -10,12 +10,12 @@
 
  .cabeza{
     background-color: black;
-    padding: 3%;
+    padding: 2%;
  }
 
  .footer{
     background-color: $color-principal;
-    padding: 4%;
+    padding: 6%;
  }
 
  .bi{
@@ -28,11 +28,9 @@
   .bi-instagram{
      color: #fe1c7f;
   }
-  .bi-youtube{
-     color: #fe0000;
-  }
+
   .bi-whatsapp{
-    color: black;
+    color: #1bd741;
   }
   .footer__lista{
      list-style: none;
@@ -41,7 +39,11 @@
   .textoPrincipal{
      margin: 25px;
      padding-top: 15px;
+     font-family: $tipografia-texto;
+     font-weight: bold;
+     font-size: medium;
   }
+  
   .telefonista{
      margin: 10px;
   }
@@ -70,3 +72,4 @@
     text-decoration: none;
     color:black;
  }
+

@@ -15,6 +15,13 @@
 .d-flex {
   background-color: #009f6f; }
 
+.textos {
+  margin: 25px;
+  padding-top: 15px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: medium; }
+
 .footer {
   background-color: #009f6f; }
 
@@ -25,11 +32,11 @@
 
 .cabeza {
   background-color: black;
-  padding: 3%; }
+  padding: 2%; }
 
 .footer {
   background-color: #009f6f;
-  padding: 4%; }
+  padding: 6%; }
 
 .bi {
   font-size: 2em;
@@ -41,18 +48,18 @@
 .bi-instagram {
   color: #fe1c7f; }
 
-.bi-youtube {
-  color: #fe0000; }
-
 .bi-whatsapp {
-  color: black; }
+  color: #1bd741; }
 
 .footer__lista {
   list-style: none; }
 
 .textoPrincipal {
   margin: 25px;
-  padding-top: 15px; }
+  padding-top: 15px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: medium; }
 
 .telefonista {
   margin: 10px; }
@@ -79,3 +86,6 @@ main {
 .nav a {
   text-decoration: none;
   color: black; }
+
+.carousel-item {
+  height: 28rem; }
