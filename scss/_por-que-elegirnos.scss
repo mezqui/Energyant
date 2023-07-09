@@ -1,7 +1,10 @@
 .carousel-item{
-    height: 28rem;
-    .img{
-        width: 30px;
-        height: 10px;
-    }
+    margin: 10px;
+    text-align: -webkit-center;
+}
+.carousel-control-prev-icon{
+    background-color: $color-principal;
+}
+.carousel-control-next-icon{
+    background-color: $color-principal;
 }
