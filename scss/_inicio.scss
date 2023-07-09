@@ -12,7 +12,7 @@
     background-color: black;
     padding: 1%;
     display: flex;
-    
+    justify-content: space-between;
  }
 
  .footer{
@@ -40,7 +40,10 @@
   .mail{
    list-style: none;
    color: #009f6f;
-   font-size: 10px;
+   font-size: 0.8em;
+   .info{
+      color: white;
+   }
   }
  
   .textoPrincipal{
@@ -50,7 +53,7 @@
      font-weight: bold;
      font-size: medium;
   }
-  
+
   .telefonista{
      margin: 10px;
   }

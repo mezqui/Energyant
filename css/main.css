@@ -1,24 +1,3 @@
-* {
-  margin: 0;
-  padding: 0; }
-
-.footer__piso {
-  background-color: #006647;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: nowrap; }
-
-.d-flex {
-  background-color: #009f6f; }
-
-.textos {
-  margin: 25px;
-  padding-top: 15px;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: bold;
-  font-size: medium; }
-
 .footer {
   background-color: #009f6f; }
 
@@ -30,7 +9,8 @@
 .cabeza {
   background-color: black;
   padding: 1%;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
 
 .footer {
   background-color: #009f6f;
@@ -55,7 +35,9 @@
 .mail {
   list-style: none;
   color: #009f6f;
-  font-size: 10px; }
+  font-size: 0.8em; }
+  .mail .info {
+    color: white; }
 
 .textoPrincipal {
   margin: 25px;
@@ -92,6 +74,30 @@ main {
 
 .carousel-item {
   height: 28rem; }
+  .carousel-item .img {
+    width: 30px;
+    height: 10px; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+.footer__piso {
+  background-color: #006647;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+
+.d-flex {
+  background-color: #009f6f; }
+
+.textos {
+  margin: 25px;
+  padding-top: 15px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: medium; }
 
 @media screen and (max-width: 768px) {
   .navegador {
