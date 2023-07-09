@@ -9,9 +9,6 @@
   justify-content: space-between;
   flex-wrap: nowrap; }
 
-/* .mezqui{
-    justify-content: end;
-} */
 .d-flex {
   background-color: #009f6f; }
 
@@ -32,7 +29,8 @@
 
 .cabeza {
   background-color: black;
-  padding: 2%; }
+  padding: 1%;
+  display: flex; }
 
 .footer {
   background-color: #009f6f;
@@ -53,6 +51,11 @@
 
 .footer__lista {
   list-style: none; }
+
+.mail {
+  list-style: none;
+  color: #009f6f;
+  font-size: 10px; }
 
 .textoPrincipal {
   margin: 25px;
@@ -89,3 +92,11 @@ main {
 
 .carousel-item {
   height: 28rem; }
+
+@media screen and (max-width: 768px) {
+  .navegador {
+    display: none; } }
+
+@media screen and (min-width: 769px) {
+  .navbar {
+    display: none; } }

@@ -10,7 +10,9 @@
 
  .cabeza{
     background-color: black;
-    padding: 2%;
+    padding: 1%;
+    display: flex;
+    
  }
 
  .footer{
@@ -34,6 +36,11 @@
   }
   .footer__lista{
      list-style: none;
+  }
+  .mail{
+   list-style: none;
+   color: #009f6f;
+   font-size: 10px;
   }
  
   .textoPrincipal{
