@@ -59,30 +59,28 @@
 
     <main class="mainFormulario">
         <h3 class="textoContacto">Dejá tus datos y te contactamos en breve!</h3>
-        <form class="row g-3" >
-          <div class="col-md-6">
-            <label for="inputNombre4" class="form-label">Nombre:</label>
-            <input type="text" class="form-control" id="inputNombre4">
+        <form action="../form.php" method="POST" class="row g-3" >
+          <div class="col-md-8">
+            <label for="name" class="form-label">Nombre y Apellido:</label>
+            <input type="text" name="name" id="name" class="form-control">
           </div>
           <div class="col-md-6">
-            <label for="inputApellido4" class="form-label">Apellido:</label>
-            <input type="text" class="form-control" id="inputApellido4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputEmail" class="form-label">Email:</label>
-            <input type="text" class="form-control" id="inputEmail">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" name="email" class="form-control" id="email">
           </div>
           <div class="col-md-6">
             <label for="inputTel2" class="form-label">Telefono:</label>
-            <input type="tel" class="form-control" id="inputTel2">
+            <input type="tel" name="tel" class="form-control" id="tel">
           </div>
           <div class="mb-3">
-            <label for="exampleMensaje1" class="form-label">Mensaje:</label>
-            <textarea class="form-control" id="exampleMensaje1" rows="3"></textarea>
+            <label for="coments" class="form-label">Mensaje:</label>
+            <textarea name="coments" class="form-control" id="coments" rows="3"></textarea>
           </div>
           <div class="botonEnvio">
             <button type="submit" class="btn1 btn-primary">Enviar</button>
           </div>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+          <input type="hidden" name="_captcha" value="false">
         </form>     
     </main>
 
