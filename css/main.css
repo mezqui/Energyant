@@ -20,7 +20,7 @@
 
 .footer {
   background-color: #009f6f;
-  padding: 6%; }
+  padding: 2%; }
 
 .bi {
   font-size: 2em;
@@ -86,10 +86,16 @@ main {
   padding: 0; }
 
 .footer__piso {
-  background-color: #006647;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  background-color: #006647;
+  justify-content: space-between;
+  margin-left: 2em; }
+
+.footer__piso__derechos {
+  align-self: center;
+  color: white;
+  padding-right: 2em; }
 
 .d-flex {
   background-color: #009f6f; }
@@ -114,3 +120,17 @@ main {
 @media screen and (min-width: 769px) {
   .navbar {
     display: none; } }
+
+.botonEnvio .btn1 {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-color: #006647; }
+
+.btn1:hover {
+  background-color: #009f6f;
+  transition: all 1s; }
+
+.form-control {
+  border-color: #009f6f; }

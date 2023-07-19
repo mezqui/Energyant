@@ -4,10 +4,16 @@
 }
 
 .footer__piso{
-    background-color: $color-terciario;
     display: flex;
     flex-direction: row;
+    background-color: $color-terciario;
     justify-content: space-between;
+    margin-left: 2em;
+}
+.footer__piso__derechos{
+    align-self: center;   
+    color: white;
+    padding-right: 2em;
 }
 
 

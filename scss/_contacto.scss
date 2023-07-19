@@ -1,0 +1,15 @@
+.botonEnvio .btn1{
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-color: $color-terciario;
+}
+.btn1:hover{
+    background-color: $color-principal;
+    transition: all 1s;
+}
+
+.form-control{
+    border-color: $color-principal;
+}
