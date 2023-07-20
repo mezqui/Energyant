@@ -8,12 +8,26 @@
     .row{
         justify-content: center;
     }    
-    .asesor{
-        display: none;
-        }
+    .clearfix .col-md-6{
+        width: 95%;
+    }
+    .textos{
+        margin: 0;
+    }
+    .textoPrincipal{
+        margin: 0;
+    }
+    .container-fluid{
+        width: inherit;
+        margin: auto;
+    }
 }
 
-
+/* @media (min-width: 426px) and (max-width: 768px) { 
+    .clearfix .col-md-6{
+        width: 80%;
+    }    
+} */
 
 
 
