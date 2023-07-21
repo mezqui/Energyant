@@ -21,6 +21,18 @@
         width: inherit;
         margin: auto;
     }
+    .d-block{
+        width: 100%;
+        height: 30%;    
+    }
+    .carousel-item{
+        margin: 0%;
+    }
+    .carousel-control-next-icon, .carousel-control-prev-icon{
+        background-color: transparent;
+        filter: invert(108%);
+    }
+    
 }
 
 /* @media (min-width: 426px) and (max-width: 768px) { 
