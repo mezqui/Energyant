@@ -5,12 +5,16 @@
     .cabeza{
         display: none;
     }
-    .header .row{
+    .header{
+         .row{
         justify-content: center;
-    }    
-    .clearfix .col-md-6{
-        width: 95%;
+        }    
     }
+    .clearfix{ 
+        .col-md-6{
+        width: 95%;
+        }
+    }    
     .textos{
         margin: 0;
     }
