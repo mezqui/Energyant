@@ -63,7 +63,7 @@ main {
   background-color: #009f6f;
   transition: all 1s; }
 
-.row a {
+.header .row a {
   text-decoration: none;
   color: black; }
 
@@ -84,6 +84,13 @@ main {
 .d-block {
   width: 75%;
   height: 35em; }
+
+.container {
+  margin: 25px;
+  padding-top: 15px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: medium; }
 
 * {
   margin: 0;
@@ -116,7 +123,7 @@ main {
     display: none; }
   .cabeza {
     display: none; }
-  .row {
+  .header .row {
     justify-content: center; }
   .clearfix .col-md-6 {
     width: 95%; }
@@ -136,7 +143,11 @@ main {
     background-color: transparent;
     filter: invert(108%); }
   .logoPagina {
-    width: -webkit-fill-available; } }
+    width: -webkit-fill-available; }
+  .mainEnergia {
+    margin: 0; }
+    .mainEnergia .container {
+      margin: 0; } }
 
 /* @media (min-width: 426px) and (max-width: 768px) { 
     .clearfix .col-md-6{
@@ -152,7 +163,8 @@ main {
   padding-right: 2em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  border-color: #006647; }
+  border-color: #006647;
+  width: inherit; }
 
 .btn1:hover {
   background-color: #009f6f;

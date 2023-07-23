@@ -5,7 +5,7 @@
     .cabeza{
         display: none;
     }
-    .row{
+    .header .row{
         justify-content: center;
     }    
     .clearfix .col-md-6{
@@ -34,6 +34,12 @@
     }
     .logoPagina{
         width: -webkit-fill-available;
+    }
+    .mainEnergia{
+        margin: 0;
+        .container{
+            margin: 0;
+        }
     }
 }
 
