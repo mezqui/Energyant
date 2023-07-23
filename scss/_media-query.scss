@@ -32,7 +32,9 @@
         background-color: transparent;
         filter: invert(108%);
     }
-    
+    .logoPagina{
+        width: -webkit-fill-available;
+    }
 }
 
 /* @media (min-width: 426px) and (max-width: 768px) { 

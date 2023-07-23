@@ -134,7 +134,9 @@ main {
     margin: 0%; }
   .carousel-control-next-icon, .carousel-control-prev-icon {
     background-color: transparent;
-    filter: invert(108%); } }
+    filter: invert(108%); }
+  .logoPagina {
+    width: -webkit-fill-available; } }
 
 /* @media (min-width: 426px) and (max-width: 768px) { 
     .clearfix .col-md-6{
