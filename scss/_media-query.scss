@@ -5,9 +5,10 @@
     .cabeza{
         display: none;
     }
-    .header{
-         .row{
+    .cabeza{
+        .row{
         justify-content: center;
+        margin: auto;
         }    
     }
     .clearfix{ 
@@ -40,7 +41,7 @@
         width: -webkit-fill-available;
     }
     .mainEnergia{
-        margin: 0;
+        margin: 15px;
         .container{
             margin: 0;
         }

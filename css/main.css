@@ -1,3 +1,29 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.footer__piso {
+  display: flex;
+  flex-direction: row;
+  background-color: #006647;
+  justify-content: space-between;
+  margin-left: 2em; }
+
+.footer__piso__derechos {
+  align-self: center;
+  color: white;
+  padding-right: 2em; }
+
+.d-flex {
+  background-color: #009f6f; }
+
+.textos {
+  margin: 25px;
+  padding-top: 15px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: medium; }
+
 .footer {
   background-color: #009f6f; }
 
@@ -92,39 +118,29 @@ main {
   font-weight: bold;
   font-size: medium; }
 
-* {
-  margin: 0;
-  padding: 0; }
+.botonEnvio .btn1 {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-color: #006647;
+  width: inherit; }
 
-.footer__piso {
-  display: flex;
-  flex-direction: row;
-  background-color: #006647;
-  justify-content: space-between;
-  margin-left: 2em; }
+.btn1:hover {
+  background-color: #009f6f;
+  transition: all 1s; }
 
-.footer__piso__derechos {
-  align-self: center;
-  color: white;
-  padding-right: 2em; }
-
-.d-flex {
-  background-color: #009f6f; }
-
-.textos {
-  margin: 25px;
-  padding-top: 15px;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: bold;
-  font-size: medium; }
+.form-control {
+  border-color: #009f6f; }
 
 @media screen and (max-width: 768px) {
   .navegador {
     display: none; }
   .cabeza {
     display: none; }
-  .header .row {
-    justify-content: center; }
+  .cabeza .row {
+    justify-content: center;
+    margin: auto; }
   .clearfix .col-md-6 {
     width: 95%; }
   .textos {
@@ -145,7 +161,7 @@ main {
   .logoPagina {
     width: -webkit-fill-available; }
   .mainEnergia {
-    margin: 0; }
+    margin: 15px; }
     .mainEnergia .container {
       margin: 0; } }
 
@@ -157,18 +173,3 @@ main {
 @media screen and (min-width: 769px) {
   .navbar {
     display: none; } }
-
-.botonEnvio .btn1 {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  border-color: #006647;
-  width: inherit; }
-
-.btn1:hover {
-  background-color: #009f6f;
-  transition: all 1s; }
-
-.form-control {
-  border-color: #009f6f; }
