@@ -2,10 +2,12 @@
     .navegador {
         display: none;
       }
-    .cabeza{
+    .mail{
         display: none;
     }
+
     .cabeza{
+        justify-content: center;        
         .row{
         justify-content: center;
         margin: auto;
@@ -45,6 +47,10 @@
         .container{
             margin: 0;
         }
+    }
+    .footer__piso__derechos__texto{
+        margin: 0;
+        padding-left: 1em;
     }
 }
 

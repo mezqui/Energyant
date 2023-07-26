@@ -24,9 +24,6 @@
   font-weight: bold;
   font-size: medium; }
 
-.footer {
-  background-color: #009f6f; }
-
 .logoPagina {
   max-width: auto;
   height: auto;
@@ -46,7 +43,7 @@
 
 .footer {
   background-color: #009f6f;
-  padding: 2em; }
+  padding: 1em; }
 
 .bi {
   font-size: 2em;
@@ -136,11 +133,13 @@ main {
 @media screen and (max-width: 768px) {
   .navegador {
     display: none; }
-  .cabeza {
+  .mail {
     display: none; }
-  .cabeza .row {
-    justify-content: center;
-    margin: auto; }
+  .cabeza {
+    justify-content: center; }
+    .cabeza .row {
+      justify-content: center;
+      margin: auto; }
   .clearfix .col-md-6 {
     width: 95%; }
   .textos {
@@ -163,7 +162,10 @@ main {
   .mainEnergia {
     margin: 15px; }
     .mainEnergia .container {
-      margin: 0; } }
+      margin: 0; }
+  .footer__piso__derechos__texto {
+    margin: 0;
+    padding-left: 1em; } }
 
 /* @media (min-width: 426px) and (max-width: 768px) { 
     .clearfix .col-md-6{
