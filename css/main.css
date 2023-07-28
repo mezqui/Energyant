@@ -119,10 +119,15 @@ main {
   font-family: "Fira Sans", sans-serif;
   font-weight: bold;
   font-size: medium; }
+  .container .row {
+    margin-top: 1em;
+    margin-bottom: 3em; }
 
 h2 {
   text-align: center;
-  font-weight: bolder; }
+  font-weight: bolder;
+  border-bottom: 1px solid #009f6f;
+  border-width: thick; }
 
 .botonEnvio .btn1 {
   padding-left: 2em;
