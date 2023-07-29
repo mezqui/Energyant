@@ -6,13 +6,14 @@
 
  .cabeza{
     background-color: black;
-    padding: 1%;
+    padding: 0.7%;
     display: flex;
     justify-content: space-between;
     .mail{
       list-style: none;
       color: #009f6f;
       font-size: 0.8em;
+      align-self: center;
       .info{
          color: white;
       }
@@ -39,6 +40,12 @@
   .bi-whatsapp{
     color: #1bd741;
   }
+
+  .dropdown-item:hover{
+   background-color: $color-principal;
+   font-weight:500;
+   }
+
   .footer__lista{
      list-style: none;
   }

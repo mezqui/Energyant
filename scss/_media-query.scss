@@ -25,7 +25,6 @@
         margin: 0;
     }
     .container-fluid{
-        width: inherit;
         margin: auto;
     }
     .d-block{
@@ -48,9 +47,14 @@
             margin: 0;
         }
     }
-    .footer__piso__derechos__texto{
+    .footer__piso{
+        .logo{
+            height: auto;
+        }
+        &__derechos__texto{
         margin: 0;
         padding-left: 1em;
+        }
     }
 }
 
