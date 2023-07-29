@@ -56,18 +56,17 @@
         padding-left: 1em;
         }
     }
+    .btn-group1{
+        display: none;
+    }
 }
-
-/* @media (min-width: 426px) and (max-width: 768px) { 
-    .clearfix .col-md-6{
-        width: 80%;
-    }    
-} */
-
 
 
 @media screen and (min-width: 769px) {
     .navbar {
       display: none;
+    }
+    .btn-group2{
+        display: none;
     }
 }
